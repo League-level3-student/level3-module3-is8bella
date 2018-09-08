@@ -38,7 +38,9 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString lc = new CustomString("I WANT TO BE LESS AGGRESSIVE TEXT");
+		System.out.println(lc);
+		assertEquals("i want to be less aggressive text", lc.toString());
 	}
 }
 
