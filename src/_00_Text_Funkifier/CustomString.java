@@ -9,7 +9,7 @@ public class CustomString extends SpecialString{
 	@Override
 	public String funkifyText(String s) {
 		String lc = "";
-		for (int i = 0; i < s.length(); i++) {
+		for (int i = 0; i < s.length(); i++) { //lower case =/ upper case
 			lc = lc + s.toLowerCase().charAt(i);
 		}
 		return lc;

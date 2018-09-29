@@ -8,7 +8,6 @@ public class BackwardsString extends SpecialString {
 
 	@Override
 	public String funkifyText(String s) {
-		
 		String bkwd = ""; 
 		for (int i = s.length()-1; i >= 0; i--) {
 			bkwd = bkwd + s.charAt(i);

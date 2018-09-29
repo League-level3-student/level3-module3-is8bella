@@ -24,6 +24,8 @@ public class Farm {
 		for (int i = 0; i < farm.size(); i++) {
 			farm.get(i).makeNoise();
 			farm.get(i).isEating();
+			
+			System.out.println(farm.get(i) + " is making noise and eating.");
 		}
 	}
 
