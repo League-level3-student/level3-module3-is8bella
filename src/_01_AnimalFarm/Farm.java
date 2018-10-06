@@ -16,10 +16,10 @@ public class Farm {
 
 		farm.add(Ulysses);
 		farm.add(Persephone);
-		farm.add(Charlemagne);
 		farm.add(Socrates);
 		farm.add(Plato);
 		farm.add(Aristotle);
+		farm.add(Charlemagne);
 
 		for (int i = 0; i < farm.size(); i++) {
 			farm.get(i).makeNoise();
