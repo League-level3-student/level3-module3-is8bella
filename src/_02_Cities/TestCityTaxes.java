@@ -15,17 +15,16 @@ public class TestCityTaxes {
 		City bo = new Boston(673184, 1.2);
 		City la = new LosAngeles(3976000, 1.4);
 		City at = new Atlanta(472522, 1);
-		
+
 		cities.add(sd);
 		cities.add(bo);
 		cities.add(la);
 		cities.add(at);
-		
-		
-		assertEquals(3251200.00, cities.get(0).getAnnualTaxes(), 0.01); //sd
-		assertEquals(1144412.80, cities.get(1).getAnnualTaxes(), 0.01); //bo
-		assertEquals(3896480.00, cities.get(2).getAnnualTaxes(), 0.01); //la
-		assertEquals(945044.00, cities.get(3).getAnnualTaxes(), 0.01); //at 
+
+		assertEquals(3251200.00, cities.get(0).getAnnualTaxes(), 0.01); // San Diego
+		assertEquals(1144412.80, cities.get(1).getAnnualTaxes(), 0.01); // Boston
+		assertEquals(3896480.00, cities.get(2).getAnnualTaxes(), 0.01); // Los Angeles
+		assertEquals(945044.00, cities.get(3).getAnnualTaxes(), 0.01); // Atlanta
 	}
 
 }
